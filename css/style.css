@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+@font-face {
+   font-family: "AA-Pussycat";
+   src: url("../fonts/AA-Pussycat-Regular.woff2") format("woff2"),
+      url("../fonts/AA-Pussycat-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "AA-Pussycat";
+   src: url("../fonts/AA-Pussycat-Italic.woff2") format("woff2"),
+      url("../fonts/AA-Pussycat-Italic.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "Geakosa";
+   src: url("../fonts/Geakosa-Oblique.woff2") format("woff2"),
+      url("../fonts/Geakosa-Oblique.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: oblique;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+   padding: 10px 0 10px 10px;
+}
+
+#caption {
+   font-family: 'Rubik Beastly', cursive;
+   font-size: 48px;
+   color: rgb(254, 106, 0);
+   text-align: center;
+   text-shadow: 2px 2px 20px rgb(254, 106, 0);
+   letter-spacing: 2px;
+   margin-bottom: 40px;
+}
+
+h2 {
+   font-size: 23px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+
+div.phones {
+   padding-left: 200px;
+}
+
+.phone {
+   width: 450px;
+   margin-bottom: 100px;
+}
+
+.title {
+   font-family: "AA-Pussycat", fantasy;
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0.849);
+   white-space: nowrap;
+   margin-bottom: 20px;
+}
+
+.descr {
+   margin-bottom: 20px;
+}
+
+.title .sunset-blue {
+   font-family: "AA-Pussycat", fantasy;
+   font-size: 30px;
+   font-style: italic;
+   color: #1fbbff;
+}
+
+.title .glacier-blue {
+   font-family: "AA-Pussycat", fantasy;
+   font-size: 30px;
+   font-style: italic;
+   color: #aad3e9;
+}
+
+.title .nordic-blue {
+   font-family: "AA-Pussycat", fantasy;
+   font-size: 30px;
+   font-style: italic;
+   color: #1d393c;
+}
+
+.item-name,
+.item-val {
+   font-weight: 500;
+}
+
+.item-name {
+   color: darkslategray;
+   line-height: 1.5;
+}
+
+.item-val {
+   color: fuchsia;
+}
+
+.old-price {
+   font-weight: 700;
+   color: rgba(0, 0, 0, 0.849);
+   text-align: center;
+   text-decoration: line-through;
+}
+
+.new-price {
+   font-weight: 900;
+   font-size: 20px;
+   color: rgba(0, 0, 0, 0.849);
+   text-align: center;
+}
+
+.discount {
+   font-weight: 300;
+   color: white;
+   background-color: rgb(212, 56, 56);
+   width: 30px;
+   margin-bottom: 20px;
+}
+
+.bonus {
+   font-weight: 600;
+   font-size: 14px;
+   text-decoration: overline;
+}
+
+.footer p {
+   font-family: "Geakosa", sans-serif;
+   font-style: oblique;
+   font-weight: 100;
+   font-size: 10px;
+   color: white;
+   background-color: gray;
+   text-decoration: underline;
+   text-transform: capitalize;
+   text-indent: 20px;
+   word-spacing: 5px;
+   box-sizing: content-box;
+   padding: 10px 0 10px 0;
+}
